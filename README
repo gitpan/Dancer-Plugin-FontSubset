@@ -2,7 +2,7 @@ NAME
     Dancer::Plugin::FontSubset - Generate font subsets on-the-fly
 
 VERSION
-    version 0.1.1
+    version 0.1.2
 
 SYNOPSIS
     In config.yml:

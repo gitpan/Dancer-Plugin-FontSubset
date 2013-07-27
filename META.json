@@ -38,6 +38,7 @@
             "List::AllUtils" : "0",
             "Moo" : "0",
             "MooX::Singleton" : "0",
+            "perl" : "v5.12.0",
             "warnings" : "0"
          }
       },
@@ -55,7 +56,7 @@
    "provides" : {
       "Dancer::Plugin::FontSubset" : {
          "file" : "lib/Dancer/Plugin/FontSubset.pm",
-         "version" : "v0.1.1"
+         "version" : "v0.1.2"
       }
    },
    "release_status" : "stable",
@@ -71,12 +72,13 @@
          "web" : "https://github.com/yanick/Dancer-Plugin-FontSubset"
       }
    },
-   "version" : "0.1.1",
+   "version" : "0.1.2",
    "x_author_pledge" : {
       "version" : 1
    },
    "x_authority" : "cpan:YANICK",
    "x_contributors" : [
+      "Andreas Koenig <andreas.koenig@(none)>",
       "Yanick Champoux <yanick@cpan.org>"
    ]
 }

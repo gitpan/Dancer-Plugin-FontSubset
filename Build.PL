@@ -23,7 +23,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "Dancer-Plugin-FontSubset",
-  "dist_version" => "0.1.1",
+  "dist_version" => "0.1.2",
   "license" => "perl",
   "module_name" => "Dancer::Plugin::FontSubset",
   "recommends" => {},
@@ -36,6 +36,7 @@ my %module_build_args = (
     "List::AllUtils" => 0,
     "Moo" => 0,
     "MooX::Singleton" => 0,
+    "perl" => "v5.12.0",
     "warnings" => 0
   },
   "script_files" => []

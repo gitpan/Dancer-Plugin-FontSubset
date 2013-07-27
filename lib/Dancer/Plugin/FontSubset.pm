@@ -3,10 +3,12 @@ BEGIN {
   $Dancer::Plugin::FontSubset::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Dancer::Plugin::FontSubset::VERSION = '0.1.1';
+  $Dancer::Plugin::FontSubset::VERSION = '0.1.2';
 }
 # ABSTRACT: Generate font subsets on-the-fly
 
+
+use 5.12.0;
 
 use Dancer ':syntax';
 use Dancer::Plugin;
@@ -885,7 +887,7 @@ Dancer::Plugin::FontSubset - Generate font subsets on-the-fly
 
 =head1 VERSION
 
-version 0.1.1
+version 0.1.2
 
 =head1 SYNOPSIS
 
